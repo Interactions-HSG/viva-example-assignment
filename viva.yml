@@ -1,0 +1,47 @@
+# What the viva examines this submission against.
+#
+# You can read this file, and you could edit it — it is in your own copy. So it
+# holds the half of the brief that is no secret: *what* you are examined on.
+# The other half — how the examiner should steer, the questions it always asks,
+# and the reference solution — is held by the exam server under the name below,
+# where it is nobody's to read in advance. See viva-example-pack.
+#
+# Editing any of this does not change what you will be asked. The course's copy
+# wins field by field, and the transcript records which of the two was used.
+
+version: 1
+
+# Which brief on the exam server governs this task.
+assignment: viva-example
+
+# The learning objectives. Stated here on purpose: knowing what you will be
+# examined on is not the same as knowing what you will be asked, and the first
+# one is only fair. The course's copy of these is the one that counts.
+goals:
+  - id: what-the-limit-means
+    goal: >
+      Say what "three requests a minute" actually means in your
+      implementation — over which stretch of time it is counted, and what a
+      client can get away with at the edge of it.
+
+  - id: which-clock
+    goal: >
+      Know which clock your limiter reads, and what happens to a client the
+      next time that clock is corrected or stepped.
+
+  - id: what-it-holds
+    goal: >
+      Say what your limiter accumulates per client, and what that costs after
+      a great many clients that never come back.
+
+# Deliberately not here, and not by accident:
+#
+#   context    what the examiner should steer at, and what the handed-out
+#              tests do not reach. Written for the examiner; reading it would
+#              tell you where to look.
+#   questions  the questions that are always put, word for word. In your copy
+#              they would be questions to rehearse rather than to answer.
+#   solution   the reference implementation. In your copy it is a file you
+#              could open.
+#
+# All three are in the pack. viva-example-pack shows what they look like.
