@@ -3,7 +3,7 @@
 The half of a worked example that **students copy**: an ordinary IT task — a
 per-client rate limiter — set up so that [viva-cologna][viva] can examine a
 submission of it. The other half, [viva-example-pack][pack], is what the course
-keeps to itself.
+keeps to itself — it is private, so that link is a 404 unless you set the task.
 
 [viva]: https://github.com/Interactions-HSG/viva-cologna
 [pack]: https://github.com/Interactions-HSG/viva-example-pack
