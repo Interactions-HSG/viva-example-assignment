@@ -4,14 +4,14 @@
 # holds the half of the brief that is no secret: *what* you are examined on.
 # The other half — how the examiner should steer, the questions it always asks,
 # and the reference solution — is held by the exam server under the name below,
-# where it is nobody's to read in advance. See viva-example-pack.
+# where it is nobody's to read in advance. See viva-example-solution.
 #
 # Editing any of this does not change what you will be asked. The course's copy
 # wins field by field, and the transcript records which of the two was used.
 
 version: 1
 
-# Which brief on the exam server governs this task.
+# Which brief on the exam server governs this assignment.
 assignment: viva-example
 
 # The learning objectives. Stated here on purpose: knowing what you will be
@@ -53,4 +53,4 @@ goals:
 #   solution   the reference implementation. In your copy it is a file you
 #              could open.
 #
-# All three are in the pack. viva-example-pack shows what they look like.
+# All three are in the solution. viva-example-solution shows what they look like.

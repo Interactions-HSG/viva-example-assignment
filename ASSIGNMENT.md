@@ -1,4 +1,4 @@
-# A rate limiter for the API (example task)
+# A rate limiter for the API (example assignment)
 
 The API in front of you is being hammered by a handful of clients, and the
 team has settled on the crudest fix that works: **no client gets more than
