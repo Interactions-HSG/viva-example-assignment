@@ -17,22 +17,31 @@ assignment: viva-example
 # The learning objectives. Stated here on purpose: knowing what you will be
 # examined on is not the same as knowing what you will be asked, and the first
 # one is only fair. The course's copy of these is the one that counts.
+#
+# Each one carries its level in the revised Bloom taxonomy, and the level is
+# not decoration: it is what the examiner uses to decide what a question has to
+# demand. An `analyse` objective is not examined by asking you to describe, and
+# an `evaluate` one is not examined by a question with a single right answer.
 goals:
   - id: what-the-limit-means
+    level: analyse
     goal: >
-      Say what "three requests a minute" actually means in your
-      implementation — over which stretch of time it is counted, and what a
-      client can get away with at the edge of it.
+      Trace, through your own code, over which stretch of time a client's
+      allowance is counted, and work out what a client can get through at the
+      edge of it.
 
   - id: which-clock
+    level: evaluate
     goal: >
-      Know which clock your limiter reads, and what happens to a client the
-      next time that clock is corrected or stepped.
+      Judge which clock a rate limiter should read, and defend the choice
+      against a machine whose time is corrected while a client is inside its
+      window.
 
   - id: what-it-holds
+    level: analyse
     goal: >
-      Say what your limiter accumulates per client, and what that costs after
-      a great many clients that never come back.
+      Work out what your limiter accumulates per client, and what is left
+      behind by clients that never come back.
 
 # Deliberately not here, and not by accident:
 #
